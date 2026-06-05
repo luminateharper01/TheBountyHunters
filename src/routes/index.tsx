@@ -68,7 +68,7 @@ function Nav() {
 }
 
 function Hero() {
-  const fullCA = "7xK4mP2sL8JdR3nT6yQzW1eF5hK9vB4cX7pN9AbCd";
+  const fullCA = "EvMcvyTucNWj4DM5gyXH1L1pt8ZcEsED3CkeyMU2pump";
 
   const shortCA =
     fullCA.length > 12
