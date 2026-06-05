@@ -59,7 +59,7 @@ function Nav() {
           <a href="#bounties" className="hover:text-primary transition">Bounties</a>
           <a href="#wall" className="hover:text-primary transition">Wall</a>
         </nav>
-        <a href="https://pump.fun/coin/EvMcvyTucNWj4DM5gyXH1L1pt8ZcEsED3CkeyMU2pump" target="_blank"  className="px-4 py-1.5 rounded-md bg-primary text-primary-foreground text-xs font-bold uppercase tracking-wider hover:scale-105 transition glow-gold">
+        <a href="https://pump.fun/coin/EvMcvyTucNWj4DM5gyXH1L1pt8ZcEsED3CkeyMU2pump" target="_blank" className="px-4 py-1.5 rounded-md bg-primary text-primary-foreground text-xs font-bold uppercase tracking-wider hover:scale-105 transition glow-gold">
           Buy $HUNT
         </a>
       </div>
@@ -309,9 +309,9 @@ function Bounties() {
       <motion.div {...fadeUp} className="text-center mb-16">
         <p className="text-xs uppercase tracking-[0.4em] text-accent mb-3">// WANTED</p>
         <h2 className="font-display text-4xl sm:text-6xl">Active <span className="text-gold-gradient">Bounties</span></h2>
-      </motion.div>
+       </motion.div>
 
-      <div className="grid md:grid-cols-3 gap-5">
+      {/* <div className="grid md:grid-cols-3 gap-5">
         {bounties.map((b, i) => (
           <motion.article
             key={b.title}
@@ -345,10 +345,29 @@ function Bounties() {
             </div>
           </motion.article>
         ))}
+      </div> */}
+      <div className="wanted-card rounded-xl p-10 text-center max-w-3xl mx-auto">
+        <div className="text-5xl mb-4">🤠</div>
+
+        <h3 className="font-display text-3xl text-gold-gradient mb-4">
+          Bounty Board Under Maintenance
+        </h3>
+
+        <p className="text-muted-foreground max-w-xl mx-auto leading-relaxed">
+          The Sheriff is preparing new missions and rewards.
+          Check back soon, Hunter.
+        </p>
+
+        <div className="mt-6 inline-flex items-center gap-2 px-4 py-2 rounded-md border border-primary/40 bg-primary/5 text-primary text-sm uppercase tracking-widest">
+          Coming Soon
+        </div>
       </div>
     </section>
   );
 }
+
+
+
 
 function HunterWall() {
   const hunters = [
