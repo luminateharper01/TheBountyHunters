@@ -59,7 +59,7 @@ function Nav() {
           <a href="#bounties" className="hover:text-primary transition">Bounties</a>
           <a href="#wall" className="hover:text-primary transition">Wall</a>
         </nav>
-        <a href="#buy" className="px-4 py-1.5 rounded-md bg-primary text-primary-foreground text-xs font-bold uppercase tracking-wider hover:scale-105 transition glow-gold">
+        <a href="https://pump.fun/coin/EvMcvyTucNWj4DM5gyXH1L1pt8ZcEsED3CkeyMU2pump" target="_blank"  className="px-4 py-1.5 rounded-md bg-primary text-primary-foreground text-xs font-bold uppercase tracking-wider hover:scale-105 transition glow-gold">
           Buy $HUNT
         </a>
       </div>
@@ -136,7 +136,7 @@ function Hero() {
           className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3"
           id="buy"
         >
-          <a href="https://pump.fun/go" target="_blank" rel="noreferrer"
+          <a href="https://pump.fun/coin/EvMcvyTucNWj4DM5gyXH1L1pt8ZcEsED3CkeyMU2pump" target="_blank" rel="noreferrer"
             className="group relative w-full  px-7 py-3.5 rounded-md bg-primary text-primary-foreground font-bold uppercase tracking-wider text-sm overflow-hidden glow-gold hover:scale-[1.03] transition">
             <span className="relative z-10 flex items-center justify-center gap-2">
               <Crosshair className="w-4 h-4" /> Buy $HUNT
@@ -406,7 +406,7 @@ function FinalCTA() {
           Once you're a hunter, you're a hunter for life. Saddle up.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row gap-3 justify-center">
-          <a href="#buy" className="px-10 py-4 rounded-md bg-accent text-accent-foreground font-bold uppercase tracking-wider glow-neon hover:scale-105 transition">
+          <a href="https://pump.fun/coin/EvMcvyTucNWj4DM5gyXH1L1pt8ZcEsED3CkeyMU2pump" target="_blank" rel="noreferrer" className="px-10 py-4 rounded-md bg-accent text-accent-foreground font-bold uppercase tracking-wider glow-neon hover:scale-105 transition">
             Buy $HUNT
           </a>
           <a href="https://x.com/BountyhuntersHQ" target="_blank" className="px-10 py-4 rounded-md border border-primary text-primary font-bold uppercase tracking-wider hover:bg-primary hover:text-primary-foreground transition">
